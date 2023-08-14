@@ -25,11 +25,11 @@ def easy_print(func):
 
 
 
-# @count_time 
-# @easy_print
-# def test_a():
-#     time.sleep(5)
-#     print("睡觉了5秒")
+@count_time 
+@easy_print
+def test_a():
+    time.sleep(5)
+    print("睡觉了5秒")
     
 
 
@@ -37,7 +37,7 @@ def easy_print(func):
 @easy_print
 def test_b():
     time.sleep(1)
-    print("睡觉了3秒")
+    print("睡觉了8秒")
     
 
 
